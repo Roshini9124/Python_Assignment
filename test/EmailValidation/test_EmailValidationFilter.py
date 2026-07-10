@@ -1,6 +1,5 @@
 import src.ValidatingEmailAddresses.util as util
 
-
 def test_fun_valid():
     assert util.fun("lara@hackerrank.com") is True
     assert util.fun("brian-23@hackerrank.com") is True
