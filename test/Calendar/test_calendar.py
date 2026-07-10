@@ -1,7 +1,6 @@
 from src.Calendar.util import get_day_name
 import pytest
 
-
 def test_monday():
     assert get_day_name(7, 10, 2023) == "MONDAY"
 
