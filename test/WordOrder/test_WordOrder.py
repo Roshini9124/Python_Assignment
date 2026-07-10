@@ -1,5 +1,4 @@
 from src.WordOrder.util import word_order
-
 def test_word_order(capsys):
     words = ["bcdef", "abcdefg", "bcde", "bcdef"]
 
