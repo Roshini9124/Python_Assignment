@@ -1,7 +1,6 @@
 import pytest
 from src.RunnerUp_Score.util import runner_up_score
 
-
 def test_normal_case():
     scores = [2, 3, 6, 6, 5]
     assert runner_up_score(scores) == 5
