@@ -1,7 +1,6 @@
 import pytest
 from src.StringMutation.util import mutate_string
 
-
 def test_replace_middle_character():
     assert mutate_string("abracadabra", 5, "k") == "abrackdabra"
 
