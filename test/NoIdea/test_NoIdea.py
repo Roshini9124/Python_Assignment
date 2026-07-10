@@ -1,6 +1,5 @@
 from src.NoIdea.util import calculate_happiness
 
-
 def test_case_1():
     values = ['1', '5', '3']
     a = {'3', '1'}
