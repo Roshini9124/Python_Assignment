@@ -1,7 +1,6 @@
 import pytest
 from src.StringFormatting.util import print_formatted
 
-
 def test_number_1(capsys):
     print_formatted(1)
     captured = capsys.readouterr()
