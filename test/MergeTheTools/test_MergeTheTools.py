@@ -1,7 +1,6 @@
 import pytest
 from src.MergeTheTools.util import merge_the_tools
 
-
 def test_sample_case(capsys):
     merge_the_tools("AABCAAADA", 3)
     captured = capsys.readouterr()
