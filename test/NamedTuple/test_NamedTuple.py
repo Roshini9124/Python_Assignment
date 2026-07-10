@@ -1,7 +1,6 @@
 import pytest
 from src.NamedTuple.util import average_marks
 
-
 def test_case1():
     n = 5
     columns = ["ID", "MARKS", "NAME", "CLASS"]
