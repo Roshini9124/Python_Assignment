@@ -1,7 +1,6 @@
 import pytest
 from src.Lists.util import execute
 
-
 def test_append():
     l = []
     execute(l, ["append", "10"])
